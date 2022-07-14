@@ -591,6 +591,10 @@ video {
   margin-right: auto;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -601,6 +605,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .w-28 {
@@ -673,6 +681,11 @@ video {
 .bg-brightBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(224 93% 58% / var(--tw-bg-opacity));
+}
+
+.bg-lightGrayBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(240 75% 98% / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -754,20 +767,8 @@ video {
   outline-offset: 2px;
 }
 
-.hover\:bg-opacity-75:hover {
-  --tw-bg-opacity: 0.75;
-}
-
-.hover\:opacity-50:hover {
-  opacity: 0.5;
-}
-
-.hover\:opacity-60:hover {
-  opacity: 0.6;
-}
-
-.hover\:opacity-75:hover {
-  opacity: 0.75;
+.hover\:bg-opacity-80:hover {
+  --tw-bg-opacity: 0.8;
 }
 
 @media (min-width: 768px) {
@@ -775,8 +776,20 @@ video {
     order: -9999;
   }
 
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-36 {
     width: 9rem;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-2 {
@@ -799,6 +812,10 @@ video {
 }
 
 @media (min-width: 992px) {
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .lg\:grid {
     display: grid;
   }
@@ -819,7 +836,16 @@ video {
 }
 
 @media (min-width: 1440px) {
+  .xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .xl\:grid-cols-xlSearch {
     grid-template-columns: 3fr 1fr;
+  }
+
+  .xl\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 }
