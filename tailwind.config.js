@@ -14,7 +14,7 @@ module.exports = {
         desBlue: 'hsl(238, 22%, 44%)',
         brightBlue: 'hsl(224, 93%, 58%)',
         moderateCyan: 'hsl(170, 45%, 43%)',
-        lightGrayBlue: 'hsl(240, 75%, 98%)',
+        lightGrayBlue: 'hsl(240, 75%, 98.43%)',
         lightGray: 'hsl(0, 0%, 75%)',
       },
       fontFamily: {
@@ -25,6 +25,9 @@ module.exports = {
         lgSearch : '2fr 1fr',
         xlSearch : '3fr 1fr',
       },
+      boxShadow: {
+        card: ['1px 2px 6px 1px rgba(0, 0, 0, 0.05)', '-1px -2px 6px 1px rgba(0, 0, 0, 0.05)'],
+      }
     },
   },
   plugins: [],
