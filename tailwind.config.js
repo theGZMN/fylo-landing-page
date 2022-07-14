@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/*.{html,js}"],
   theme: {
     screens: {
       sm: '480px',
@@ -20,6 +20,10 @@ module.exports = {
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],
         openSans: ['Open Sans', 'sans-serif'],
+      },
+      gridTemplateColumns: {
+        lgSearch : '2fr 1fr',
+        xlSearch : '3fr 1fr',
       },
     },
   },
