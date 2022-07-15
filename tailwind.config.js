@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*.{html,js}"],
+  content: ["./*.html"],
   theme: {
     screens: {
       sm: '480px',
@@ -24,6 +24,8 @@ module.exports = {
       gridTemplateColumns: {
         lgSearch : '2fr 1fr',
         xlSearch : '3fr 1fr',
+        mdFooter : '3fr 2fr 2fr',
+        lgFooter : '2fr 1fr 1fr 1fr',
       },
       boxShadow: {
         card: ['1px 2px 6px 1px rgba(0, 0, 0, 0.05)', '-1px -2px 6px 1px rgba(0, 0, 0, 0.05)'],
