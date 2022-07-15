@@ -21,7 +21,7 @@
           <img src="/images/logo.svg" alt="logo" class="w-28 md:w-36">
         </div>
         <!-- Menu Items -->
-        <div class="space-x-7 font-raleway">
+        <div class="space-x-4 md:space-x-7 font-raleway">
           <a href="#" class=" text-desBlue">Features</a>
           <a href="#" class=" text-desBlue">Team</a>
           <a href="#" class=" text-desBlue">Sign In</a>
@@ -69,7 +69,7 @@
           <div class="space-y-16">
             <!-- Article Description -->
             <div class=" container mx-auto space-y-8">
-              <h3 class=" font-raleway text-lg font-extrabold text-veryDarkBlue md:text-2xl md:leading-normal lg:text-3xl xl:text-4xl">
+              <h3 class=" font-raleway text-xl font-extrabold text-veryDarkBlue md:text-2xl md:leading-normal lg:text-3xl xl:text-4xl">
                 Stay productive, wherever you are
               </h3>
               <p class=" text-desBlue text-left lg:max-w-md">
@@ -81,14 +81,15 @@
               <!-- Article Link -->
               <div>
                 <a class=" text-moderateCyan border-solid border-b-2 border-moderateCyan py-1.5 cursor-pointer hover:opacity-70">
-                  See how Fylo works <i class="fa-solid fa-circle-arrow-right ml-1"></i>
+                  See how Fylo works
+                  <img class="inline-block w-5 ml-1 mb-0.5" src="/images/icon-arrow.svg" alt="">
                 </a>
               </div>
             </div>
             <!-- Article Card -->
             <div class="container mx-auto px-8 md:px-0">
               <div class="bg-white text-desBlue pl-8 pr-4 py-6 space-y-4 text-left shadow-card rounded lg:max-w-md">
-                <i class="fa-solid fa-quote-left text-2xl text-veryDarkBlue"></i>
+                <img class="w-4" src="/images/icon-quotes.svg" alt="">
                 <p>
                   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
                 </p>
@@ -110,5 +111,74 @@
         </div>
       </div>
     </section>
+
+    <!-- Call To Action -->
+    <section id="cta" class=" bg-desBlue">
+      <!-- CTA Contaier -->
+      <div class="container mx-auto text-center py-20 px-10 text-white grid grid-cols-1 items-center gap-9 md:grid-cols-2 md:text-left md:px-6">
+        <!-- CTA Text -->
+        <div class="space-y-6 px-2 md:space-y-4 md:px-0">
+          <h3 class="text-xl font-extrabold font-raleway md:text-2xl lg:text-3xl">
+            Get early access today
+          </h3>
+          <p class="lg:max-w-md">
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+          </p>
+        </div>
+        <!-- CTA Form -->
+        <form class="grid grid-cols-1 px-12 gap-3">
+          <input class="px-4 py-2 rounded-sm outline-none border-none shadow-md" type="email" name="email" id="email" placeholder="email@example.com">
+          <input class="bg-brightBlue px-4 py-2 rounded-sm cursor-pointer shadow-md hover:bg-opacity-75 lg:w-1/2 xl:w-2/5" type="submit" id="submit" value="Get Started For Free">
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue text-white">
+      <!-- Footer Container -->
+      <div class="container mx-auto py-20 px-10 md:px-6">
+        <!-- Footer Logo -->
+        <img class="w-48 mb-14" src="/images/logo-white.svg" alt="logo">
+        <!-- Footer Links -->
+        <div class="grid grid-cols-1 gap-14 justify-between md:grid-cols-3 lg:grid-cols-4">
+          <!-- 1st Part -->
+          <div class="space-y-4">
+            <p>
+              <img class="inline-block mr-4" src="/images/icon-phone.svg" alt="">
+              Phone: +1-543-1234
+            </p>
+            <p>
+              <img class="inline-block mr-4" src="/images/icon-email.svg" alt="">
+              example@fylo.com
+            </p>
+          </div>
+          <!-- 2nd Part -->
+          <div class="space-y-4">
+            <div><a class="hover:text-desBlue inline-block" href="#">About Us</a></div>
+            <div><a class="hover:text-desBlue inline-block" href="#">Jobs</a></div>
+            <div><a class="hover:text-desBlue inline-block" href="#">Press</a></div>
+            <div><a class="hover:text-desBlue inline-block" href="#">Blog</a></div>
+          </div>
+          <!-- 3rd Part -->
+          <div class="space-y-4">
+            <div><a class="hover:text-desBlue inline-block" href="#">Contact Us</a></div>
+            <div><a class="hover:text-desBlue inline-block" href="#">Terms</a></div>
+            <div><a class="hover:text-desBlue inline-block" href="#">Privacy</a></div>
+          </div>
+          <!-- 4th Part -->
+          <div class="text-center space-x-4 hidden lg:block">
+            <i class="fa-brands fa-facebook text-3xl hover:text-desBlue"></i>
+            <i class="fa-brands fa-twitter text-3xl hover:text-desBlue"></i>
+            <i class="fa-brands fa-instagram text-3xl hover:text-desBlue"></i>
+          </div>
+        </div>
+        <!-- 4th Part -->
+        <div class="text-center space-x-4 mt-16 lg:hidden">
+          <i class="fa-brands fa-facebook text-3xl hover:text-desBlue"></i>
+          <i class="fa-brands fa-twitter text-3xl hover:text-desBlue"></i>
+          <i class="fa-brands fa-instagram text-3xl hover:text-desBlue"></i>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
